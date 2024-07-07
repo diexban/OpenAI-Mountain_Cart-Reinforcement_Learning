@@ -1,4 +1,4 @@
-import gymnasium as gym
+import gym
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
@@ -68,4 +68,3 @@ if __name__ == '__main__':
     # run(15000)
 
     run(15000, is_training=True, render=True)
-
